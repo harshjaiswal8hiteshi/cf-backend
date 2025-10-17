@@ -1,0 +1,91 @@
+# -----------------------------
+# Python / FastAPI backend
+# -----------------------------
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# Environment variables
+.env
+.env.*
+.env.local
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+.coverage
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+.coverage.*
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Type checker / linters
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+ruff_cache/
+.sourcery/
+
+# Database files
+*.sqlite
+*.sqlite3
+*.db
+
+# Logs and temp files
+logs/
+*.log
+tmp/
+temp/
+*.pid
+*.seed
+*.bak
+
+# Alembic migrations cache
+alembic/versions/*.pyc
+
+# Editor and IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+.editorconfig
+
+# OS-specific files
+.DS_Store
+Thumbs.db
