@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 
 load_dotenv()  # Load environment variables from .env
 
-AI_BACKEND_URL = os.getenv("AI_BACKEND_URL", "http://localhost:8081")
+AI_BACKEND_URL = os.getenv("AI_BACKEND_URL", "http://localhost:8082")
 APP_BACKEND_PORT = int(os.getenv("APP_BACKEND_PORT", 8000))
 
 
